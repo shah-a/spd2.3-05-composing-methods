@@ -20,14 +20,14 @@ In this series of exercises, we practice various refactoring techniques. You may
 - [x]  Exercise 6: Various Techniques
   - Study the file [best_students.py](best_students.py). Use `Replace Temp with query` and `extract function` techniques to improve readability of the code. 
 
-- [ ] Exercise 7: 'Split Temporary Variable' Technique
+- [x] Exercise 7: 'Split Temporary Variable' Technique
   - Study the files [burger_toppings.py](burger_toppings.py) and use `split temporary variable` technique to clarify the code (make it easier to understand its intent.)
 
-- [ ] Exercise 8: 'Remove Assignment to Method Parameter' Technique
+- [x] Exercise 8: 'Remove Assignment to Method Parameter' Technique
   - Study the file [kinetic_energy.py](kinetic_energy.py). Use `remove assignment to method parameter` technique to prevent future mistakes/bugs.
 
-- [ ] Exercise 9: 'Rename Method' Technique
+- [x] Exercise 9: 'Rename Method' Technique
   - Study the file [calculate_area.py](calculate_area.py). Use `rename method` technique to clarify the code (make it easier to understand its intent.)
 
-- [ ] Exercise 10: 'Split Temporary Variable' Technique
+- [x] Exercise 10: 'Split Temporary Variable' Technique
   - Study the file [save_to_db.py](save_to_db.py). Use `split temporary variable` technique to clarify the code (make it easier to understand its intent.)

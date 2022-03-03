@@ -1,8 +1,7 @@
 """Exercise 9: Rename Method"""
 
 
-# TODO: Rename this function to reflect what it's doing.
-def cal_un_gr(graph):
+def calc_area_under_graph(graph):
     """Calculate the area under the input graph."""
     # bla bla bla.
     pass
@@ -10,7 +9,7 @@ def cal_un_gr(graph):
 #####################
 
 
-def get_value(li):  # TODO: Rename this function to reflect what it's doing.
+def get_largest_value(li):
     m = li[0]
     for value in li:
         if value > m:
@@ -19,15 +18,14 @@ def get_value(li):  # TODO: Rename this function to reflect what it's doing.
 
 
 li = [5, -1, 43, 32, 87, -100]
-print(get_value(li))
+print(get_largest_value(li))
 
 ############################
 
 
-# TODO: Rename this function to reflect what it's doing.
-def process(sentence):
+def split_words_on_spaces(sentence):
     words = sentence[0:].split(' ')
     return words
 
 
-print(process('If you were a vegetable, you\'d be a \'cute-cumber.\''))
+print(split_words_on_spaces('If you were a vegetable, you\'d be a \'cute-cumber.\''))
