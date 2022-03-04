@@ -8,19 +8,19 @@ In this series of exercises, we practice various refactoring techniques. You may
   - Study the file [calculate_grades.py](calculate_grades.py). Use `extract function` technique to improve modularity of the code
   
 - [x]  Exercise 2: 'Inline Function' Technique
-  - Study the file [legal_drinking_age.py](legal_drinking_age.py). Use `inline function` technique to improve readability of the code. 
+  - Study the file [legal_drinking_age.py](legal_drinking_age.py). Use `inline function` technique to improve readability of the code.
   
 - [x]  Exercise 3: 'Replace Temp with query' Technique
-  - Study the file [get_price.py](get_price.py). Use `Replace Temp with query` technique to improve readability of the code. 
+  - Study the file [get_price.py](get_price.py). Use `Replace Temp with query` technique to improve readability of the code.
 
 - [x]  Exercise 4: 'Introducing Explaining Variable' Technique
-  - Study the file [introduce_explaining_variable3.py](introduce_explaining_variable3.py). Use `Replace Temp with query` technique to improve readability of the code. 
+  - Study the file [introduce_explaining_variable.py](introduce_explaining_variable.py). Use `Replace Temp with query` technique to improve readability of the code.
 
 - [x]  Exercise 5: 'Extract Function' Technique
-  - Study the file '[distance_between_two_points.py](distance_between_two_points.py). Use `extract function` technique to improve modularity of the code. 
+  - Study the file '[distance_between_two_points.py](distance_between_two_points.py). Use `extract function` technique to improve modularity of the code.
 
 - [x]  Exercise 6: Various Techniques
-  - Study the file [best_students.py](best_students.py). Use `Replace Temp with query` and `extract function` techniques to improve readability of the code. 
+  - Study the file [best_students.py](best_students.py). Use `Replace Temp with query` and `extract function` techniques to improve readability of the code.
 
 - [x] Exercise 7: 'Split Temporary Variable' Technique
   - Study the files [burger_toppings.py](burger_toppings.py) and use `split temporary variable` technique to clarify the code (make it easier to understand its intent.)
@@ -34,13 +34,13 @@ In this series of exercises, we practice various refactoring techniques. You may
 - [x] Exercise 10: 'Split Temporary Variable' Technique
   - Study the file [save_to_db.py](save_to_db.py). Use `split temporary variable` technique to clarify the code (make it easier to understand its intent.)
 
-## Simplifying Conditionals
-
-- [ ]  Exercise 11: 'Introducing Explaining Variable' Technique
+- [x]  Exercise 11: 'Introducing Explaining Variable' Technique
   - Study the file [gauge_eyeballs.py](gauge_eyeballs.py). Use 'Replace Temp with query' technique to improve readability of the code. 
 
+## Simplifying Conditionals
+
 - [ ]  Exercise 12: 'Decompose Conditional' Technique
-  - Study the file [detect_toxins.py](detect_toxins.py). Use 'decompose conditional' technique to improve readability of the code. 
+  - Study the file [detect_toxins.py](detect_toxins.py). Use 'decompose conditional' technique to improve readability of the code.
 
 - [ ]  Exercise  13: 'Consolidate Conditional Expression' Technique
   - Study the file [mix_ice_cream.py](mix_ice_cream.py). Use 'consolidate conditional expression' technique to improve readability of the code.
