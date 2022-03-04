@@ -1,5 +1,4 @@
-# By Kami Bigdely
-# Decompose conditional
+"""Exercise 17: Decompose Conditional"""
 # Reference: https://www.healthline.com/health/high-cholesterol/levels-by-age
 
 # Blood test analysis program
@@ -15,8 +14,8 @@ elif 200 < total_cholostrol > 240 or ldl > 160 or triglyceride >= 200:
     print('*** High cholestrol level ***')
     print('start taking pills such as statins')
     print('start TLC diet')
-elif 200 <total_cholostrol < 240 or 130 < ldl < 160 or 150 <= triglyceride < 200:
-    #TLC_diet
+elif 200 < total_cholostrol < 240 or 130 < ldl < 160 or 150 <= triglyceride < 200:
+    # TLC_diet
     print('*** Borderline to moderately elevated ***')
     print("Start TLC diet")
     print("Under this meal plan, only 7 percent of your daily calories \nshould come from saturated fat.")
