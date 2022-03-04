@@ -1,5 +1,6 @@
 """Exercise 12: Decompose Conditional"""
 
+
 def make_alert_sound():
     print('made alert sound.')
 
@@ -8,9 +9,12 @@ def make_accept_sound():
     print('made acceptance sound')
 
 
+def contains_toxin(ingredients):
+    return 'sodium nitrate' in ingredients or 'sodium benzoate' in ingredients or 'sodium oxide' in ingredients
+
+
 ingredients = ['sodium benzoate']
-if 'sodium nitrate' in ingredients or 'sodium benzoate' in ingredients\
-        or 'sodium oxide' in ingredients:
+if contains_toxin(ingredients):
     print('!!!')
     print('there is a toxin in the food!')
     print('!!!')

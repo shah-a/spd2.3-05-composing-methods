@@ -1,16 +1,11 @@
 """Exercise 15: Remove Control Flag"""
 
+
 def find_food(food, fridge):
-    found = False
     for item in fridge:
         if food in item:
-            found = True
-            item_name = item
-            break
-    if found:
-        return item_name
-    else:
-        return None
+            return item
+    return None
 
 
 if __name__ == "__main__":

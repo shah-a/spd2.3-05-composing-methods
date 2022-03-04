@@ -1,5 +1,6 @@
 """Exercise 14: Consolidate Conditional Expressions"""
 
+
 def dice(ingredients):
     print("diced all ingredients.")
 
@@ -16,19 +17,19 @@ def pour(liquid):
     print('poured', liquid + '.',)
 
 
+def has_all_ingredients(ingredients):
+    return 'cucumber' in ingredients and 'tomato' in ingredients and 'onion' in ingredients and 'lemon juice' in ingredients
+    # Alternate solution (not tested):
+    # ingredients_needed = ['cucumber', 'tomato', 'onion', 'lemon juice']
+    # if all(ingredient in ingredients for ingredient in ingredients_needed):
+    #     return True
+    # return False
+
+
 def make_shirazi_salad(ingredients):
-    if 'cucumber' not in ingredients:
-        print('lacks ingredients.')
+    if not has_all_ingredients(ingredients):
         return
-    if 'tomato' not in ingredients:
-        print('lacks ingredients.')
-        return
-    if 'onion' not in ingredients:
-        print('lacks ingredients.')
-        return
-    if 'lemon juice' not in ingredients:
-        print('lacks ingredients.')
-        return
+
     dice(ingredients)
     mix_all(ingredients)
     add_salt()
