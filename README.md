@@ -67,3 +67,23 @@ In this series of exercises, we practice various refactoring techniques. You may
 
 - [x]  Exercise 20: 'Replace Nested Conditional With Guard Clauses' Technique
   - Study [calc_adjusted_capital.py](calc_adjusted_capital.py). Use 'replace nested conditional with guarded clauses' technique in combination with any other refactoring technique you've learned to improve readability/modularity of the code.
+
+## Other Techniques
+
+- [ ] Exercise 21: 'Move Attribute' Technique
+- Study [car_wheels.py](car_wheels.py). Use 'move attribute' technique in combination with any other refactoring technique you've learned to improve readability/modularity of the code.
+
+- [ ] Exercise 22: 'Extract Class' Technique
+- Study [recipes.py](recipes.py). Use 'extract class' technique in combination with any other refactoring technique you've learned to improve readability/modularity of the code.
+
+- [ ] Exercise 23: 'Extract Class' Technique
+- Study [actors.py](actors.py). Use 'extract class' technique in combination with any other refactoring technique you've learned to improve readability/modularity of the code.
+
+- [ ] Exercise 24: 'Extract Class' Technique
+- Study [steaks_revisited.py](steaks_revisited.py). Use 'extract class' technique in combination with any other refactoring technique you've learned to improve readability/modularity of the code.
+
+- [ ] Exercise 25: 'Replace Magic Number with Symbolic Constant' Technique
+- Study [magic_numbers.py](magic_numbers.py). Use 'replace magic number with symbolic constant' technique in combination with any other refactoring technique you've learned to improve readability/modularity of the code.
+
+- [ ] Exercise 26: 'Extract Superclass' Technique
+- Study [draw_shapes.py](draw_shapes.py). Use 'extract class' technique in combination with any other refactoring technique you've learned to improve readability/modularity of the code.
