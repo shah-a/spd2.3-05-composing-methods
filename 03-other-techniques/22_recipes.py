@@ -1,5 +1,30 @@
 """Exercise 22: Extract Class"""
 
+
+class Recipe:
+    def __init__(self, name, prep_time, is_veggie, type,
+                 cuisine, ingredients, instructions):
+        self.name = name
+        self.prep_time = prep_time
+        self.is_veggie = is_veggie
+        self.type = type
+        self.cuisine = cuisine
+        self.ingredients = ingredients
+        self.instructions = instructions
+
+    def print_recipe(self):
+        print('Name:', self.name)
+        print('Prep time:', self.prep_time, 'mins')
+        print('Is Veggie?', self.is_veggie)
+        print('Food Type:', self.type)
+        print('Cuisine:', self.cuisine)
+        for ingredient in self.ingredients:
+            print(ingredient, end=', ')
+        print()
+        print('recipe', self.instructions)
+        print('***')
+
+
 foods = {'butternut squash soup': [45, True, 'soup', 'North African',
                                    ['butter squash', 'onion', 'carrot', 'garlic', 'butter', 'black pepper', 'cinnamon',
                                        'coconut milk'], '1. Grill the butter squash, onion, carrot and garlic in the oven until'
@@ -14,16 +39,13 @@ foods = {'butternut squash soup': [45, True, 'soup', 'North African',
                                     ' blend corriander seeds, black pepper seeds, fennel seeds and garlic to make'
                                     'the seasonings 2. In a bowl, mix ground beef with the'
                                     'seasoning 3. Add all the content to a sausage stuffer. Put the casing on'
-                                    "the stuffer funnel. Rotate the stuffer's handle (or turn it on) to make your yummy sausages!"]}
+                                    'the stuffer funnel. Rotate the stuffer\'s handle ( or turn it on) to make your yummy sausages!']}
+
+recipe_list = []
 
 for key, value in foods.items():
-    print("Name:", key)
-    print("Prep time:", value[0], "mins")
-    print("Is Veggie?", 'Yes' if value[1] else "No")
-    print("Food Type:", value[2])
-    print("Cuisine:", value[3])
-    for item in value[4]:
-        print(item, end=', ')
-    print()
-    print("recipe", value[5])
-    print("***")
+    recipe_list.append(Recipe(
+        key, value[0], 'Yes' if value[1] else 'No', value[2], value[3], value[4], value[5]))
+
+for recipe in recipe_list:
+    recipe.print_recipe()
